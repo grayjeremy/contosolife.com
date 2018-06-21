@@ -18,7 +18,8 @@ email: gray.jeremy@microsoft.com
 description: >- # this means to ignore newlines until "baseurl:"
   Jeremy's legendary website
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://127.0.0.1:4000" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://grayjeremy.github.io/contosolife.com" # the base hostname & protocol for your site, e.g. http://example.com
+postassetimagesurl: "http://grayjeremy.github.io/contosolife.com/assets/images/post"
 remoteurl: "https://contosolife.com"
 
 github_username:  grayjeremy
