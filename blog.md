@@ -11,9 +11,13 @@ layout: default
 		</div><!--/.article-head-->
 		<div class="article-content">
 		{{ post.content }}		
+
+		{% unless forloop.last %}    
+        	<hr>
+    	{% endunless %}
+
 		</div><!--/.article-content-->
 	</article>
-	{% unless forloop.last %}    
-        <div class="separater"></div>
-    {% endunless %}
+	
+
 {% endfor %}
